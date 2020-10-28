@@ -1,0 +1,75 @@
+.section-badge {
+padding: 1px 0;
+min-width: 350px;
+max-width: 500px;
+/*margin: 20px 0 2px 440px;*/
+background: #FFF;
+}
+.article-badge h2 {
+
+position: relative;
+margin: 20px -20px 0 -25px;
+background: #08A;
+color: #FFF;
+text-shadow: 1px 1px 0 #1A5D6E;
+box-shadow: 0 0 10px #AAA;
+}
+.article-badge h1, .article-badge h2 {
+text-align: center;
+font-weight: bold;
+}
+.article-badge h2:before {
+border-width: 25px 0 0 25px;
+left: 0;
+}
+.article-badge h2:before {
+content: "";
+display: block;
+position: absolute;
+bottom: -25px;
+width: 0;
+height: 0;
+border-style: solid;
+border-color: #1A5D6E transparent;
+}
+.article-badge {
+  width: 180px;
+  margin: 0px 0px 5px -30px;
+}
+.article-badge h1, .article-badge h2, .article-badge p, .article-badge ul {
+padding: 4px 20px;
+font-size: 24px;
+}
+.section-badge blockquote {
+font-family: Georgia, serif;
+font-size: 18px;
+font-style: italic;
+width: 500px;
+padding: 0.25em 40px;
+line-height: 1.45;
+position: relative;
+color: #383838;
+border: 0 !important;
+}
+.section-badge blockquote:before {
+display: block;
+content: "\201C";
+font-size: 80px;
+position: absolute;
+left: -20px;
+top: -20px;
+color: #7a7a7a;
+}
+.section-badge blockquote cite {
+color: #999999;
+font-size: 14px;
+display: block;
+margin-top: 5px;
+}
+
+.section-badge blockquote cite:before {
+content: "\2014 \2009";
+}
+.section-badge blockquote p {
+display:inline;
+}

@@ -1,0 +1,131 @@
+.esqSlider {
+	float:left;
+	width:485px;
+	height:auto;
+	margin-right:30px;
+	margin-top:20px;
+	margin-bottom:20px;
+	padding-bottom:10px;
+	border-bottom:1px dotted #069;
+	position:relative;
+}
+.dirSlider {
+	float:right;
+	width:485px;
+	height:auto;
+	margin-left:30px;
+	margin-top:20px;
+	margin-bottom:20px;
+	padding-bottom:10px;
+	border-bottom:1px dotted #069;
+	position:relative;
+}
+.centroSlider {
+	width:90%;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.flutuaIcone {
+	height:48px;
+	width:46px;
+	position:absolute;
+	right: 52px;
+	top: 243px;
+	z-index:100;
+	-moz-opacity:0.8;
+}
+.sliderwrapper {
+	position: relative; /*leave as is*/
+	overflow: hidden; /*leave as is*/
+	border-bottom-width: 2px;
+	border:2px dashed #069;
+	width:100%; /*width of featured content slider*/
+	height:auto;
+}
+
+
+
+.sliderwrapper .contentdiv{
+visibility: hidden; /*leave as is*/
+padding: 10px 15px 10px 15px;
+text-align:justify;
+background: white;
+width: 100%; /*width of content DIVs within slider. Total width should equal slider's inner width (390+5+5=400) */
+height: auto;
+filter:progid:DXImageTransform.Microsoft.alpha(opacity=100);
+-moz-opacity: 1;
+opacity: 1;
+}
+
+.pagination{
+width: 400px; /*Width of pagination DIV. Total width should equal slider's outer width (400+10+10=420)*/
+text-align: right;
+background-color:#93A9BC;
+padding: 5px 10px;
+}
+
+.pagination a{
+padding: 0 5px;
+text-decoration: none; 
+color: #000;
+background: #FFF;
+-moz-opacity:1;
+}
+
+.pagination a:hover, .pagination a.selected{
+color: #000;
+background-color: #FEE496;
+}
+
+#slider1, #slider3, #slider5, #slider6, #slider7, #slider8, #slider9, #slider10, #slider11, #slider12, #slider13, #slider14, #slider15, #slider16, #slider17, #slider18, #slider19, #slider20 {
+width: auto;
+height: auto;
+}
+
+#slider1 .contentdiv, #slider3 .contentdiv, #slider5 .contentdiv, #slider6 .contentdiv, #slider7 .contentdiv, #slider8 .contentdiv, #slider9 .contentdiv, #slider10 .contentdiv, #slider11 .contentdiv, #slider12 .contentdiv, #slider13 .contentdiv, #slider14 .contentdiv, #slider15 .contentdiv, #slider16 .contentdiv, #slider17 .contentdiv, #slider18 .contentdiv, #slider19 .contentdiv, #slider20 .contentdiv {
+width: auto;
+height:auto;
+}
+
+#paginate-slider1, #paginate-slider3, #paginate-slider5, #paginate-slider6, #paginate-slider7, #paginate-slider8, #paginate-slider9, #paginate-slider10, #paginate-slider11, #paginate-slider12, #paginate-slider13, #paginate-slider14, #paginate-slider15, #paginate-slider16, #paginate-slider17, #paginate-slider18, #paginate-slider19, #paginate-slider20 {
+width: auto;
+}
+
+#slider2, #slider4, #slider21, #slider22, #slider23, #slider24, #slider25, #slider26, #slider27, #slider28, #slider29, #slider30, #slider31, #slider32, #slider33, #slider34, #slider35, #slider36, #slider37, #slider38, #slider39, #slider40 {
+border-color: #069;
+margin-left: 15px;
+height: 330px
+}
+
+
+#paginate-slider2, #paginate-slider4{
+background-color: #069;
+border-color: #069;
+padding-right:15px;
+font-size:10px;
+text-align:center;
+}
+
+#paginate-slider4 a img{
+width: 48px;
+height: 36px;
+border: 4px solid #FFF;
+-moz-opacity:0.75;
+margin-top: 5px;
+}
+
+#paginate-slider2 a:hover, #paginate-slider2 a.selected{
+background-color: yellow;
+}
+
+#paginate-slider4 a img:hover {
+	border: 2px solid #4F7416;
+	-moz-opacity:1;
+}
+#paginate-slider4 a.selected img {
+	border: 2px solid #069;
+	-moz-opacity:1;
+}

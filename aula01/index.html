@@ -1,0 +1,442 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Rede e-Tec Brasil</title>
+<link href="../css/layout.css" rel="stylesheet" type="text/css" />
+<script src="../SpryAssets/SpryTabbedPanels.js" type="text/javascript"></script>
+<script type="text/javascript" src="../js/dropdowncontent.js"></script>
+<link href="../SpryAssets/SpryTabbedPanels.css" rel="stylesheet" type="text/css" />
+<link href="../SpryAssets/SpryCollapsiblePanel.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="../css/contentslider.css" />
+<link rel="stylesheet" type="text/css" href="../css/balloons.css" />
+<link href="../SpryAssets/SpryAccordion.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../js/contentslider.js"></script>
+<script type="text/javascript" src="../js/demo.js"></script>
+<script type="text/javascript" src="../js/mootools.js"></script>
+<script type="text/javascript" src="../js/liveclock.js"></script>
+<script type="text/javascript" src="../js/FancyZoom.js"></script>
+<script type="text/javascript" src="../js/FancyZoomHTML.js"></script>
+<script type="text/javascript" src="../js/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="../js/jquery-tooltip/lib/jquery.js"></script>
+<script src="../js/jquery-tooltip/lib/jquery.bgiframe.js" type="text/javascript"></script>
+<script src="../js/jquery-tooltip/lib/jquery.dimensions.js" type="text/javascript"></script>
+<script type="text/javascript" src="../js/scrolltopcontrol.js"></script>
+<script type="text/javascript" src="../js/jquery-tooltip/jquery.tooltip.js"></script>
+<script src="../js/jquery-tooltip/lib/jquery.bgiframe.js" type="text/javascript"></script>
+<script src="../js/jquery-tooltip/lib/jquery.dimensions.js" type="text/javascript"></script>
+<script type="text/javascript" src="../js/scrolltopcontrol.js"></script>
+<script type="text/javascript" src="../js/jquery-tooltip/jquery.tooltip.js"></script>
+<link href="../js/jquery-tooltip/jquery.tooltip.css" rel="stylesheet" />
+<script src="../js/jquery-tooltip/demo/chili-1.7.pack.js" type="text/javascript"></script>
+<script src="../SpryAssets/SpryAccordion.js" type="text/javascript"></script>
+<script src="../SpryAssets/SpryCollapsiblePanel.js" type="text/javascript"></script>
+<script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
+<script type="text/javascript">
+<!-- begin
+var sHors = "0"+0; 
+var sMins = "0"+0;
+var sSecs = -1;
+function getSecs(){
+	sSecs++;
+	if(sSecs==60){sSecs=0;sMins++;
+    if(sMins<=9)sMins="0"+sMins;
+    }
+	if(sMins==60){sMins="0"+0;sHors++;
+    if(sHors<=9)sHors="0"+sHors;
+	}
+	if(sSecs<=9)sSecs="0"+sSecs;
+	document.getElementById("clock1").innerHTML=sHors+"<font color=#FFF>:</font>"+sMins+"<font color=#FFF>:</font>"+sSecs;
+    setTimeout('getSecs()',1000);
+
+	}
+//-->
+$(function() {
+$('#tip1 a').tooltip({
+	track: true,
+	delay: 0,
+	showURL: false,
+	showBody: " - ",
+	fade: 250
+});
+});
+  $(document).ready(function(){
+    $("#animar1").click(function(){
+      $("#bloco1").animate( { opacity:0}, 200 )
+         .animate( { width:"90%" } , 400 )
+		 .animate( { fontSize:"12px" } , 600 )
+		 .animate( { opacity:1 } , 1000 )
+         .animate( { borderLeftWidth:"15px" }, 1200);
+    });
+    $("#animar2").click(function(){
+      $("#bloco2").animate( { opacity:0}, 200 )
+         .animate( { width:"90%" } , 400 )
+		 .animate( { fontSize:"12px" } , 600 )
+		 .animate( { opacity:1 } , 1000 )
+         .animate( { borderRightWidth:"15px" }, 1200);
+    });
+	$("#animar3").click(function(){
+      $("#bloco3").animate( { opacity:0}, 200 )
+         .animate( { width:"90%" } , 400 )
+		 .animate( { fontSize:"12px" } , 600 )
+		 .animate( { opacity:1 } , 1000 )
+         .animate( { borderLeftWidth:"15px" }, 1200);
+    });
+	$("#animar4").click(function(){
+      $("#bloco4").animate( { opacity:0}, 200 )
+         .animate( { width:"90%" } , 400 )
+		 .animate( { fontSize:"12px" } , 600 )
+		 .animate( { opacity:1 } , 1000 )
+         .animate( { borderLeftWidth:"15px" }, 1200);
+    });
+	$("#animar5").click(function(){
+      $("#bloco5").animate( { opacity:0}, 200 )
+         .animate( { width:"90%" } , 400 )
+		 .animate( { fontSize:"12px" } , 600 )
+		 .animate( { opacity:1 } , 1000 )
+         .animate( { borderLeftWidth:"15px" }, 1200);
+    });
+	$("#animar6").click(function(){
+      $("#bloco6").animate( { opacity:0}, 200 )
+         .animate( { width:"90%" } , 400 )
+		 .animate( { fontSize:"12px" } , 600 )
+		 .animate( { opacity:1 } , 1000 )
+         .animate( { borderLeftWidth:"15px" }, 1200);
+    });
+	$("#animar7").click(function(){
+      $("#bloco7").animate( { opacity:0}, 200 )
+         .animate( { width:"90%" } , 400 )
+		 .animate( { fontSize:"12px" } , 600 )
+		 .animate( { opacity:1 } , 1000 )
+         .animate( { borderLeftWidth:"15px" }, 1200);
+    });
+	$("#esconder1").click(function(){
+      $("#bloco1").animate( { opacity:0}, 1000 )
+		 .animate( { fontSize:"0px" } , 1000 )
+		 .animate( { borderLeftWidth:"0px" } , 1000 );
+    });
+	$("#esconder2").click(function(){
+      $("#bloco2").animate( { opacity:0}, 1000 )
+		 .animate( { fontSize:"0px" } , 1000 )
+		 .animate( { borderRightWidth:"0px" } , 1000 );
+    });
+	$("#esconder3").click(function(){
+      $("#bloco3").animate( { opacity:0}, 1000 )
+		 .animate( { fontSize:"0px" } , 1000 )
+		 .animate( { borderRightWidth:"0px" } , 1000 );
+    });
+	$("#esconder4").click(function(){
+      $("#bloco4").animate( { opacity:0}, 1000 )
+		 .animate( { fontSize:"0px" } , 1000 )
+		 .animate( { borderLeftWidth:"0px" } , 1000 );
+    });
+	$("#esconder5").click(function(){
+      $("#bloco5").animate( { opacity:0}, 1000 )
+		 .animate( { fontSize:"0px" } , 1000 )
+		 .animate( { borderLeftWidth:"0px" } , 1000 );
+    });
+	$("#esconder6").click(function(){
+      $("#bloco6").animate( { opacity:0}, 1000 )
+		 .animate( { fontSize:"0px" } , 1000 )
+		 .animate( { borderLeftWidth:"0px" } , 1000 );
+    });
+	$("#esconder7").click(function(){
+      $("#bloco7").animate( { opacity:0}, 1000 )
+		 .animate( { fontSize:"0px" } , 1000 )
+		 .animate( { borderLeftWidth:"0px" } , 1000 );
+    });
+});
+</script>
+</head>
+
+<body>
+        <div class="logodir">
+          <div class="cursodireita">Educa&ccedil;&atilde;o a Dist&acirc;ncia</div>
+         </div>
+<div id="corpo">
+		<div class="conteudo">
+        <div class="titulo">Aula 01 - Aprendendo a Dist&acirc;ncia</div>
+		  <div id="TabbedPanels1" class="TabbedPanels">
+		    <ul class="TabbedPanelsTabGroup">
+              <li class="TabbedPanelsTab" tabindex="0">APRESENTA&Ccedil;&Atilde;O</li>
+              <li class="TabbedPanelsTab" tabindex="0">T&Oacute;PICO 1</li>
+              <li class="TabbedPanelsTab" tabindex="0">T&Oacute;PICO 2</li>
+              <li class="TabbedPanelsTab" tabindex="0">T&Oacute;PICO 3</li>
+<li class="TabbedPanelsTab" tabindex="0">REFER&Ecirc;NCIAS</li>
+		    </ul>
+		    <div class="TabbedPanelsContentGroup">
+              <div class="TabbedPanelsContent" style="position:relative">
+                <h4 class="subtitulo">Introdu&ccedil;&atilde;o</h4>
+                <div class="divapres">
+                <div id="lipsum">
+                  <p> Esta aula apresenta as orienta&ccedil;&otilde;es b&aacute;sicas e fundamentais para que voc&ecirc; desenvolva as compet&ecirc;ncias necess&aacute;rias para aprender na modalidade a dist&acirc;ncia e obter os melhores resultados em sua aprendizagem. Ela &eacute; composta de tr&ecirc;s t&oacute;picos, todos trazem assuntos relevantes para seu estudo. Vejamos alguns deles: modelo pedag&oacute;gico, planejamento e comprometimento na aprendizagem a dist&acirc;ncia; como aprender a dist&acirc;ncia; como cumprir as atividades curriculares do curso; como desenvolver t&eacute;cnicas de leitura e estudos.</p>
+                  <p>Ao final desta aula, voc&ecirc; dever&aacute; elaborar seu cronograma de estudo e enviar ao tutor a dist&acirc;ncia que ir&aacute; acompanh&aacute;-lo nos seus estudos. Vamos &agrave; aula, ent&atilde;o.</p>
+                  <div class="objetivosini">
+                    <div class="objetivosico"><img src="../imgs/objetivos.png" width="168" height="50" /></div>
+                    <ul type="disc">
+                      <li>Compreender a import&acirc;ncia do planejamento e comprometimento em cursos a dist&acirc;ncia.</li>
+                      <li>Conhecer as ferramentas que auxiliam na aprendizagem.</li>
+                      <li>Apresentar algumas t&eacute;cnicas de estudo para aplicar &agrave; aprendizagem a dist&acirc;ncia.</li>
+                    </ul>
+                  </div>
+                  <p>Vamos iniciar a aula com uma palavrinha sobre a pedagogia a dist&acirc;ncia que adotamos e sobre o porqu&ecirc; da abordagem andrag&oacute;gica.</p>
+                  <p>&nbsp;</p>
+                </div>
+                </div>
+              </div>
+              <div class="TabbedPanelsContent" style="position:relative">
+                <div class="ntopico" style="left:-55px; top:17px; width: 58px; height: 48px;">01</div>
+                <div class="ntitulo"> <strong>Planejamento e comprometimento na aprendizagem a dist&acirc;ncia</strong></div>
+                <div class="nsubtitulo"> Este t&oacute;pico tem como objetivo:
+                  <ul>
+                    <li>Compreender a import&acirc;ncia do planejamento e comprometimento em cursos a dist&acirc;ncia.</li>
+                  </ul>
+                </div>
+                <p>Quando voc&ecirc; participou do processo seletivo e obteve sua vaga, decidiu fazer seu curso na modalidade a dist&acirc;ncia. Pois bem, agora &eacute; hora de se engajar a fundo em seus estudos, saber o que &eacute; esperado de voc&ecirc;, o que voc&ecirc; precisa fazer, e como fazer. Em resumo, &eacute; hora de desenvolver o h&aacute;bito de planejar e de organizar sua aprendizagem e, com isso, criar melhores condi&ccedil;&otilde;es de aprender e de manter-se no controle de seus estudos.</p>
+                <div class="lightbox"><a href="imagens/diagrama 01-01.png" title="Diagrama 1– Atitudes e tarefas de um aluno EaD" target="_blank"><img src="imagens/mini-diagrama 01-01.jpg" width="209" height="143" border="0" /></a><strong><br />
+                  Diagrama 1<br />
+                  Fonte:</strong> DEaD / IFCE - 2009</div>
+                <p>Veja no diagrama a seguir quais atitudes e tarefas s&atilde;o importantes para um aluno da modalidade de ensino a dist&acirc;ncia:</p>
+                <div class="popup" onclick="divwin=dhtmlwindow.open('divbox', 'div', 'windows01-01', 'Atitudes e tarefas de um aluno de EAD', 'width=590px,height=550px,resize=1,scrolling=1,center=1'); return false"><img src="../imgs/janela-popup.png" alt="Popup" width="16" height="14" /> Atitudes e tarefas de um aluno de EAD <img src="../imgs/janela-popup.png" alt="Popup" width="16" height="14" /></div>
+                <p>O aluno que estuda a dist&acirc;ncia necessita ter o controle sobre sua aprendizagem.Para isso, deve desenvolver-se uma s&eacute;rie de aptid&otilde;es, habilidades, h&aacute;bitos, atitudes e compet&ecirc;ncias que lhe ajudem a obter bons resultados em sua aprendizagem.                </p>
+                <div class="referenciaBoxdir">
+                  <div id="animar2" class="boxiconedir"><img src="../imgs/vocesabiadir.png" width="90" height="222" /></div>
+                </div>
+                <div id="bloco2" style="display:none;">
+                  <p>A falta de planejamento &eacute; um fator que impede seu sucesso no curso a dist&acirc;ncia. Portanto &eacute; preciso densenvolv&ecirc;-lo continuamente no decorrer do curso!</p>
+                  <div id="esconder2" class="fechardir">Fechar <img src="../imgs/fechar.png" width="24" height="23" align="absmiddle" /></div>
+                </div>
+                <div style="clear:both;"></div>
+                <p>&nbsp;</p>
+                <p>Voc&ecirc; dever&aacute; agir como seu pr&oacute;prio treinador agora. Seus esfor&ccedil;os devem ser voltados para sua aprendizagem. Comprometimento e planejamento do tempo para estudar 
+                a dist&acirc;ncia ser&atilde;o as duas coisas mais exigidas de voc&ecirc;.</p>
+                <h4 class="subtitulo">Comprometimento</h4>
+                <p>Para avaliar e melhorar seu grau de comprometimento, pense no  objetivo maior: concluir seu curso.</p>
+                <div id="CollapsiblePanel1" class="CollapsiblePanel">
+                  <div class="CollapsiblePanelTab" tabindex="0"> <strong>Para isso, ser&aacute; necess&aacute;rio:</strong>
+<div class="seta"><img src="../imgs/seta.png" width="54" height="54" /></div>
+                  </div>
+                  <div class="CollapsiblePanelContent">
+                    <div class="caixaDestaque">
+                      <ul>
+                        <li>Ter disciplina e realizar as atividade do curso;</li>
+                        <li>Valorizar o curso que escolheu, dedicando- se para que ele se mantenha em um 
+                          &oacute;timo padr&atilde;o de qualidade;</li>
+                        <li>Confiar em si mesmo para superar seus limites e buscar solu&ccedil;&otilde;es para as dificuldades 
+                          encontradas ao longo de sua aprendizagem;</li>
+                        <li>Ser sujeito e participante ativo do curso, n&atilde;o se limitar a receber passivamente 
+                          a informa&ccedil;&atilde;o e exercer continuamente seu esp&iacute;rito cr&iacute;tico, valorizando suas 
+                          opini&otilde;es e as dos colegas.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <h4 class="subtitulo">Planejamento</h4>
+                <p>Em Educa&ccedil;&atilde;o a Dist&acirc;ncia (EaD), o estudante deve aprender a autodisciplina e a 
+                  gest&atilde;o do seu tempo. O sistema tradicional de ensino o habituou a lhe dizer o que 
+                  fazer, quando fazer, como fazer e com que fazer, dificultando assim o desenvolvimento 
+                  dessas habilidades t&atilde;o necess&aacute;rias agora. Sem disciplina, &eacute; quase improv&aacute;vel 
+                  que o estudante conclua seu curso. Na verdade, o bom aluno de EaD precisa de duas 
+                  caracter&iacute;sticas principais: autonomia e disciplina. Esse aluno comp&otilde;e o universo 
+                  de pessoas que &ldquo;sabem dosar suas horas de estudo&rdquo;, no dizer de Litto, Presidente da 
+                Associa&ccedil;&atilde;o Brasileira de Educa&ccedil;&atilde;o a Dist&acirc;ncia-(ABED).<br />
+                </p>
+                <div class="referenciaBox">
+                  <div id="animar1" class="boxicone"><img src="../imgs/atencao.png" width="90" height="222" /></div>
+                </div>
+                <div id="bloco1" style="display:none;">
+                  <p>A Associação Brasileira de 
+                    Educação a Distância, é uma
+                    sociedade científica, 
+                    sem fins lucrativos,
+                    voltada para o
+                    desenvolvimento da
+                    educação aberta,
+                    flexível e a distância,
+                    foi criada em 21 de
+                    junho de 1995 por
+                    um grupo de
+                    educadores
+                    interessados em
+                    educação a
+                    distância e em
+                    novas tecnologias
+                  de aprendizagem.</p>
+                  <p> Fonte:
+                    <a href="http://www2.abed.org.br/ institucional.asp?Institucional_ ID=1">http://www2.abed.org.br/
+                    institucional.asp?Institucional_ ID=1</a></p>
+                  <div id="esconder1" class="fechar">Fechar <img src="../imgs/fechar.png" width="24" height="23" align="absmiddle" /></div>
+                </div>
+                <div style="clear:both;"></div>
+<p>E agora? Como fazer? A resposta &eacute; planejar! O planejamento &eacute; a chave para seu 
+                  sucesso no curso, nas disciplinas e tamb&eacute;m na vida! Para isso, comece por aprender 
+                a planejar seu tempo.</p>
+                <div id="CollapsiblePanel2" class="CollapsiblePanel">
+                  <div class="CollapsiblePanelTab" tabindex="0"> <strong>O planejamento &eacute; uma ferramenta poderosa para:</strong>
+<div class="seta"><img src="../imgs/seta.png" width="54" height="54" /></div>
+                  </div>
+                  <div class="CollapsiblePanelContent">
+                    <div class="caixaDestaque">
+                      <ul>
+                        <li>Estabelecer objetivos e prioridades claros e realiz&aacute;veis dentro do cronograma do curso e do tempo de que voc&ecirc; disp&otilde;e para estudar;</li>
+                        <li> Planejar e gerenciar seus estudos, seu tempo e seu ritmo para o cumprimento das atividades curriculares do curso;</li>
+                        <li>Calcular/ organizar o tempo para os estudos;</li>
+                        <li>Avaliar as condi&ccedil;&otilde;es que voc&ecirc; tem dispon&iacute;veis e aquilo de que precisa para melhor se aplicar nos estudos;</li>
+                        <li>Criar as condi&ccedil;&otilde;es (f&iacute;sicas, psicol&oacute;gicas e emocionais) favor&aacute;veis a seus estudos;</li>
+                        <li>Controlar e avaliar constantemente sua maneira de aprender, melhorando-a no que for necess&aacute;rio.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+               
+                <h4 class="subtitulo2">Estabelecendo objetivos e prioridades claros e realiz&aacute;veis</h4>
+                <p>Pallof e Pratt (2004), em &ldquo;O aluno virtual&rdquo;, destacam os princ&iacute;pios b&aacute;sicos para o gerenciamento do tempo: o estabelecimento claro dos objetivos e das prioridades. As prioridades, por sua vez, devem sempre estar ligadas aos objetivos.                </p>
+                <div class="comentarioAutor">
+                  <div class="comentarioCit"><img src="../imgs/citacao.png" alt="cita&ccedil;&atilde;o" width="48" height="48" /></div>
+                  <p>Os alunos virtuais devem ser incentivados a determinar seus objetivos n&atilde;o s&oacute; pelo resultado do programa como um todo, mas pelos resultados obtidos em cada um dos cursos que far&atilde;o. Mesmo que o curso seja um pr&eacute;-requisito, uma obriga&ccedil;&atilde;o para se obter o diploma, &eacute; importante estabelecer o tempo necess&aacute;rio para dar conta dos trabalhos. Se, por exemplo, a meta final for atingir a nota necess&aacute;ria para ser aprovado em um curso online da disciplina de estat&iacute;stica e se os objetivos de fato contiverem a necessidade de compreender melhor os v&aacute;rios pontos estudados em tal disciplina, o aluno poder&aacute; avaliar as exig&ecirc;ncias que lhe s&atilde;o impostas &agrave; luz de suas metas e objetivos, determinando as prioridades para estudo independe: tempo online, tempo para realiza&ccedil;&atilde;o de trabalhos, etc. O tempo destinado para cada uma dessas atividades deve, ent&atilde;o, ser planejado e marcado em um calend&aacute;rio.</p>
+                  <div class="comentarioCred">(Palloff; Pratt, 2004, p. 100-1)</div>
+                </div>
+                <p>Pallof e Prat sugerem uma figura em que apresentam a prioriza&ccedil;&atilde;o de atividades pelo aluno:</p>
+                <div class="lightbox"><a href="imagens/Quadro1_Priorizando-o-comprometimento-com-o-tempo.-Adaptado-de--Pallof-e-Pratt-(2004)-02.png" title="Quadro 1 – Priorizando o comprometimento com o tempo. Adaptado de  Pallof e Pratt (2004) "><img src="imagens/mini-Quadro-1.jpg" width="209" height="143" border="0" /></a><strong><br />
+                  Quadro 1<br />
+                Fonte:</strong> DEaD / IFCE - 2009</div>
+                <p>&nbsp;</p>
+                <div class="popup" onclick="divwin=dhtmlwindow.open('divbox', 'div', 'windows01-02', 'Quadro 2 - Priorizando o comprometimento com o tempo', 'width=590px,height=350px,resize=1,scrolling=1,center=1'); return false"><img src="../imgs/janela-popup.png" alt="Popup" width="16" height="14" /> Priorizando o comprometimento com o tempo <img src="../imgs/janela-popup.png" alt="Popup" width="16" height="14" /></div>
+                <p>Voc&ecirc; deve aprender a estabelecer dentro dessa classifica&ccedil;&atilde;o quais s&atilde;o suas prioridades, de modo a poder cumprir todas suas tarefas e compromissos, priorizando, &eacute; claro, as mais importantes e urgentes sem se descuidar das demais.</p>
+                <p>Os autores ainda discutem como as atividades podem ser encaixadas no quadro. Voc&ecirc; tamb&eacute;m pode fazer isso. Dessa forma, procure construir o seu quadro. Para isso, use o cronograma, agenda, hor&aacute;rios e lista de tarefas descritas mais adiante.</p>
+              </div>
+              <div class="TabbedPanelsContent">
+                <div class="ntopico">02</div>
+                <div class="ntitulo"><strong>Aprender a dist&acirc;ncia, como?</strong></div>
+                <div class="nsubtitulo">Este t&oacute;pico tem como objetivo:
+                  <ul>
+                    <li>Conhecer as ferramentas que auxiliam na aprendizagem.</li>
+                  </ul>
+                </div>
+                <p>A resposta &agrave; pergunta feita no t&iacute;tulo deste t&oacute;pico &eacute;: aprendendo a planejar, gerenciar e avaliar seus estudos, seu tempo e seu ritmo, bem como  cumprir as atividades curriculares do curso.</p>
+                <p>Existem diversas ferramentas de gest&atilde;o que ajudam na tarefa de planejamento e avalia&ccedil;&atilde;o. A Universidade de Laval, no Canad&aacute;, (DESSAINT, 1998), j&aacute; pela experi&ecirc;ncia acumulada de muitos anos em Educa&ccedil;&atilde;o a Dist&acirc;ncia, aconselha que o estudante prepare e utilize um calend&aacute;rio, uma agenda, um quadro de hor&aacute;rios di&aacute;rio/semanal e tamb&eacute;m uma lista de tarefas a cumprir a cada semana, como instrumental b&aacute;sico para se planejar. S&atilde;o essas ferramentas que vamos indicar para ajud&aacute;-lo a planejar e organizar sua forma&ccedil;&atilde;o.</p>
+                <p>Dessaint (1998) ressalta que essas ferramentas ajudam, a longo prazo, a acompanhar  e seguir atentamente a progress&atilde;o da aprendizagem, conforme detalharemos a seguir:</p>
+                <h4 class="subtitulo2">Sua primeira ferramenta: um grande calend&aacute;rio!</h4>
+                <p>O ambiente virtual fornece um calend&aacute;rio semanal das atividades curriculares, as datas das provas, encontros e pr&aacute;ticas presenciais e outras atividades. Pois bem, pegue esse mesmo calend&aacute;rio e amplie com seus outros compromissos: familiares, profissionais e sociais (aqueles inadi&aacute;veis), como o anivers&aacute;rio de seus pais ou uma viagem j&aacute; programada. Transforme em um calend&aacute;rio,  destacando com cores diferentes as prioridades importantes e urgentes.</p>
+                <p>Coloque seu calend&aacute;rio bem vis&iacute;vel, em local onde voc&ecirc; passe a maior parte do seu tempo (em casa ou no trabalho). Ah! Ele &eacute; para ser consultado como rem&eacute;dio, duas vezes por dia! Com ele voc&ecirc; saber&aacute; os seus per&iacute;odos mais ocupados e os mais leves. Assim voc&ecirc; pode organizar melhor o uso do tempo para seus estudos individuais e atividades obrigat&oacute;rias do curso sem se perder e, de quebra, pode obter os melhores resultados no curso e nas disciplinas.</p>
+                <h4 class="subtitulo2">Uma agenda, &oacute;tima ferramenta!</h4>
+                <p>Que caderninho &uacute;til para tantas coisas! Adquira o h&aacute;bito de ter e usar diariamente uma agenda. Pegue seu calend&aacute;rio e anote logo na agenda todos os compromissos do curso. Em seguida, anote seus compromissos pessoais e profissionais. V&aacute; alimentando sua agenda com as atividades que forem surgindo. Com isso, voc&ecirc; ter&aacute;, al&eacute;m do controle dos seus afazeres, uma ajuda para avaliar o cumprimento dos seus compromissos e at&eacute; para fazer relat&oacute;rios peri&oacute;dicos. Se preferir, que tal voc&ecirc; fazer tamb&eacute;m a mesma agenda em formato digital, no computador? </p>
+<h4 class="subtitulo2">Meus hor&aacute;rios di&aacute;rios/semanais?</h4>
+<p>Um cronograma geral, amplo e em formato grande na sua frente, e uma agenda, onde h&aacute; o registro de tudo que deve fazer no curso, v&atilde;o ajud&aacute;-lo a estabelecer os hor&aacute;rios reservados para estudo e atividades profissionais. Mas n&atilde;o se esque&ccedil;a de reservar tempo para o divertimento! Veja um exemplo de hor&aacute;rio semanal:  </p>
+<div class="comentarioAutor">
+  <p><strong>Agora a minha lista de tarefas a cumprir:</strong></p>
+  <ul>
+    <li>Cronograma de hor&aacute;rio semanal <a href="doc/cronograma.doc">cronograma.doc</a> [<img src="../imgs/word.gif" alt="Word" width="18" height="22" align="absmiddle" />]</li>
+  </ul>
+</div>
+<p>Outra ferramenta, sem d&uacute;vida, eficaz para planejamento, gest&atilde;o e controle da sua aprendizagem &eacute; criar e manter bem atualizada uma lista de tarefas a cumprir, na qual voc&ecirc; vai marcando aquelas que forem sendo cumpridas.</p>
+<div class="comentarioAutor">
+  <p><strong>Veja outro modelo bem pr&aacute;tico (Se desejar, pode criar o seu, do seu jeito.)</strong></p>
+  <ul>
+    <li>Cronograma de hor&aacute;rio semanal <a href="doc/tarefas.doc">tarefas.doc</a> [<img src="../imgs/word.gif" alt="Word" width="18" height="22" align="absmiddle" />]</li>
+  </ul>
+</div>
+<p>N&atilde;o esque&ccedil;a que voc&ecirc; deve controlar seu tempo para n&atilde;o ficar sobrecarregado, se isso acontecer, reavalie seu cronograma, sua agenda, seu hor&aacute;rio e sua lista de tarefas e redistribua conforme o estabelecimento das prioridades. Claro que priorizar&aacute; as mais importantes e urgentes. Respeite seus limites e seu tempo. Nos per&iacute;odos mais sobrecarregados, procure parar e depois retomar as atividades com a mente mais aberta, descansada. Gerencie seu tempo, seu ritmo e garanta seus prazos.</p>
+<h4 class="subtitulo2">Como eu estou progredindo na minha aprendizagem?</h4>
+
+ <strong>A import&acirc;ncia da autoavalia&ccedil;&atilde;o...</strong>
+ <p>O professor pode saber suas notas, mas a verdadeira situa&ccedil;&atilde;o de sua aprendizagem somente voc&ecirc; sabe. Por isso deve adquirir o h&aacute;bito de se avaliar constantemente, pois a autoavalia&ccedil;&atilde;o &eacute; a melhor b&uacute;ssola para voc&ecirc; administrar seu percurso de aprendizagem e sua progress&atilde;o nos estudos.</p>
+<p>A profa. Dessaint (1998) afirma que as vantagens da autoavalia&ccedil;&atilde;o s&atilde;o numerosas. Baseada no que diz a te&oacute;rica, acredita-se  que a autoavalia&ccedil;&atilde;o permite ao aluno:</p>
+<div class="caixaDestaque"><strong>a) Conhecer-se melhor como estudante.</strong>
+    <ol>
+      <li>Identificar que tipo de estudante voc&ecirc; &eacute;. Se for muito rigoroso ou relapso, &eacute; hora de tomar decis&otilde;es e mudar de atitude, n&atilde;o &eacute;?</li>
+      <li>Saber qual seu modo pr&oacute;prio de pensar, de aprender as coisas, quais as melhores condi&ccedil;&otilde;es para aprender mais e melhor: se &eacute; lendo e ouvindo m&uacute;sica, por exemplo, se &eacute; anotando e fazendo esquemas do que vai estudando; o que lhe distrai e o que o ajuda a se concentrar para aprender mais f&aacute;cil e rapidamente.</li>
+    </ol>
+    <strong>b) Avaliar-se: como eu aprendo melhor e mais r&aacute;pido? O que facilita ou dificulta meu aprendizado?</strong>
+    <ol>
+      <li>Conhecer qual o grau de conhecimento que voc&ecirc; j&aacute; tem (ou n&atilde;o tem) sobre o assunto estudado, se precisa estudar mais, pesquisar sobre o assunto, aprender coisas mais b&aacute;sicas para compreender melhor o conte&uacute;do ou ir logo para a parte mais aprofundada, pois as bases voc&ecirc; j&aacute; sabe.</li>
+      <li>Preparar-se para as avalia&ccedil;&otilde;es e provas, mantendo seus exerc&iacute;cios em dia e revisando-os frequentemente.</li>
+    </ol>
+  </div>
+<p>&Eacute; importante tamb&eacute;m voc&ecirc; estar &ldquo;antenado&rdquo; com suas motiva&ccedil;&otilde;es, suas mudan&ccedil;as de humor, seu estado de esp&iacute;rito. Ningu&eacute;m &eacute; de ferro. Se estiver se sentindo desmotivado, desanimado, frustrado, &eacute; hora de pedir ajuda para o pessoal do curso ou, at&eacute; mesmo, para a fam&iacute;lia dar uma forcinha.</p>
+<div class="caixaDestaque">
+<ul>
+  <li>Lembrar-se sempre de que s&oacute; quem sabe de voc&ecirc; &eacute; voc&ecirc; mesmo.</li>
+</ul>
+</div>
+<p>Ent&atilde;o, trate de detectar e corrigir o que n&atilde;o estiver bom (consigo e com suas tarefas).</p>
+<p>J&aacute; apresentamos alguns conselhos que ajudam na autoavalia&ccedil;&atilde;o. Eis alguns exemplos para voc&ecirc; refletir e, &eacute; claro, para guiar-se nos estudos:</p>
+<div class="caixaDestaque">
+<ul>
+  <li>Fa&ccedil;a uma an&aacute;lise de seu calend&aacute;rio, de seu hor&aacute;rio e de sua lista semanal de tarefas, mantendo-os regularmente em ordem de modo a fazer um balan&ccedil;o e controlar sua progress&atilde;o nos objetivos e compromissos;</li>
+  <li>Habitue-se a consultar os livros e guias (como nesse m&oacute;dulo que voc&ecirc; est&aacute; estudando agorinha mesmo) que contenham t&eacute;cnicas e estrat&eacute;gias eficientes de trabalho intelectual e fa&ccedil;a um paralelo com seu pr&oacute;prio modo habitual de estudar;<br />
+    Veja o t&oacute;pico 4 dessa aula e volte para c&aacute; depois. Marque as t&eacute;cnicas que voc&ecirc; domina menos e veja como isso poderia afetar ou reduzir a velocidade de seu aprendizado. Busque superar as dificuldades exercitando.</li>
+  <li>Ao receber as corre&ccedil;&otilde;es dos trabalhos, revise e, se for necess&aacute;rio, discuta com seu tutor;</li>
+  <li>Durante os momentos em que voc&ecirc; estuda (l&ecirc;, faz trabalhos, resumos, exerc&iacute;cios, pesquisa), observe seu modo de trabalhar: identifique o que o distrai e tira sua concentra&ccedil;&atilde;o, quais as maneiras de estudar que s&atilde;o mais eficientes. Assim voc&ecirc;, ao final do estudo, n&atilde;o ter&aacute; aquela sensa&ccedil;&atilde;o de que gastou seu tempo &agrave; toa;</li>
+  <li>Claro que h&aacute; muito conte&uacute;do sobre o qual a gente n&atilde;o tem muita motiva&ccedil;&atilde;o para aprender, mas &eacute; necess&aacute;rio para o conjunto do curso. Se isso lhe acontecer, encontre e construa boas motiva&ccedil;&otilde;es para tirar o melhor proveito do conte&uacute;do. A mesma recomenda&ccedil;&atilde;o serve para os exerc&iacute;cios e as atividades propostas. Embora elas n&atilde;o lhe pare&ccedil;am t&atilde;o estimulantes, aproveite-as para revisar seus conhecimentos.</li>
+</ul>
+</div>
+              </div>
+              <div class="TabbedPanelsContent">
+                <div class="ntopico">03</div>
+                <div class="ntitulo"><strong>T&eacute;cnicas de estudo para a aprendizagem a dist&acirc;ncia</strong></div>
+                <div class="nsubtitulo"> Este t&oacute;pico tem como objetivo:
+                  <ul type="disc">
+                    <li>Apresentar algumas t&eacute;cnicas de estudo para aplicar &agrave; aprendizagem a dist&acirc;ncia.</li>
+                  </ul></div>
+                <p>Assim como no curso presencial, a principal obriga&ccedil;&atilde;o do estudante &eacute; estudar, l&oacute;gico! Ent&atilde;o, como tirar melhor proveito dos estudos?</p>
+                <div class="niconesintro"><img src="../imgs/recap.png" width="103" height="137" /></div>
+                <p>Esse t&oacute;pico apresenta algumas t&eacute;cnicas de estudo que v&atilde;o ajud&aacute;-lo nessa tarefa.</p>
+                <p>Leituras, leituras, leituras... voc&ecirc; sabe ler? De verdade? Voc&ecirc; l&ecirc;  apenas para se informar ou voc&ecirc; l&ecirc; fazendo questionamentos, procurando compreender o texto? Pois &eacute;, nos estudos, para aprender, &eacute; preciso tirar o m&aacute;ximo proveito da leitura, ser um bom leitor. N&atilde;o se engane, h&aacute; muita gente que tem dificuldade de entender textos abstratos, extrair ideias principais, resumir o que foi lido, relacionar o conte&uacute;do com outros conhecimentos ou associar aqueles conhecimentos com outros, por exemplo.</p>
+                <p>Ter essas dificuldades &eacute; comum, pois, a menos que o trabalho exija, a gente s&oacute; se preocupa quando est&aacute; estudando e, &agrave;s vezes, &eacute; motivado(a) s&oacute; porque vai cair na prova... Pode uma coisa dessas? Pode, mas n&atilde;o deve! Uma das causas de abandono de curso a dist&acirc;ncia &eacute; porque o estudante n&atilde;o desenvolveu boas habilidades de leitura e por isso &ldquo;se perde&rdquo; no conte&uacute;do.</p>
+                <div class="nicones"><img src="../imgs/conceitos.png" width="156" height="130" /></div>
+                <p>Bom, este t&oacute;pico &eacute; proposto para ajud&aacute;-lo a refletir sobre sua pr&aacute;tica de leitura, auxiliando-o  a tirar o m&aacute;ximo de proveito nos seus estudos. Agora voc&ecirc; &eacute; &ldquo;senhor absoluto&rdquo; de sua aprendizagem!</p>
+<h4 class="subtitulo">Ter claro o objetivo da leitura</h4>
+                <p>A primeira etapa de qualquer leitura &eacute; saber para que voc&ecirc; ir&aacute; ler, ou seja, qual o objetivo da leitura. Disso vai depender seu ritmo: se ser&aacute; uma leitura r&aacute;pida ou mais demorada. Vai ler para fazer anota&ccedil;&otilde;es? Para um trabalho de pesquisa? Para aprender um tema novo? Para responder atividades ou estudar para prova?</p>
+                <p>Dependendo do objetivo da leitura, verifique de quanto tempo voc&ecirc; precisa dispor para ler e veja o ambiente mais adequado para seu conforto e concentra&ccedil;&atilde;o. D&ecirc; uma olhada geral na estrutura e organiza&ccedil;&atilde;o do material a ser lido e tente identificar as inten&ccedil;&otilde;es do autor. Verifique  sum&aacute;rio, t&iacute;tulos e subt&iacute;tulos. Tente identificar o que voc&ecirc; j&aacute; conhece do conte&uacute;do.</p>
+<p>A partir disso, voc&ecirc; pode estabelecer que tipo de leitura voc&ecirc; deve fazer: reflexiva? Seletiva? Ler o texto em diagonal? Fazer uma leitura ativa e anal&iacute;tica ou misturar as t&eacute;cnicas de acordo com as necessidades? Vejamos a seguir como se caracteriza cada tipo de leitura:</p>
+                <p>A <strong>leitura reflexiva</strong> ocorre especialmente para textos que necessitam de uma reflex&atilde;o mais profunda, como os textos filos&oacute;ficos. Esse tipo de leitura exige do leitor parar regularmente e refletir sobre as ideias do autor.</p>
+                <p>A <strong>leitura seletiva</strong> permite estabelecer um primeiro contato com um livro, um texto did&aacute;tico ou uma revista para descobrir as ideias desenvolvidas pelo autor. Nesse tipo de leitura, consultam-se as seguintes partes: o &iacute;ndice ou sum&aacute;rio, o pref&aacute;cio ou apresenta&ccedil;&atilde;o, as notas biogr&aacute;ficas do autor, os resumos, o gloss&aacute;rio, o &iacute;ndice, o cap&iacute;tulo ou o texto de introdu&ccedil;&atilde;o, as dedicat&oacute;rias, a conclus&atilde;o, como tamb&eacute;m o primeiro e o &uacute;ltimo par&aacute;grafo de todo cap&iacute;tulo ou toda se&ccedil;&atilde;o. D&aacute;-se uma olhada tamb&eacute;m nos quadros, nos diagramas e nas figuras ou ilustra&ccedil;&otilde;es.</p>
+                <p>Na leitura seletiva, aconselha-se marcar as passagens importantes, reler, anotar para usar depois, como tamb&eacute;m elaborar perguntas sobre as ideias e sobre as refer&ecirc;ncias com outros textos sugeridos. Procedendo dessa forma, n&atilde;o ser&aacute; mais necess&aacute;rio reler depois todo o texto, a n&atilde;o ser para encontrar determinados detalhes  que devem ser aprofundados. Mas, lembre-se de que essa leitura deve ser o mais breve poss&iacute;vel. Ela &eacute; somente para procurar informa&ccedil;&otilde;es espec&iacute;ficas no texto.</p>
+                <p>J&aacute; a <strong>leitura em diagonal</strong> permite descobrir rapidamente as ideias e os temas importantes de um texto. Esse tipo de leitura nada mais &eacute; que um sobrevoo pelo texto sem se deter nas palavras, com os olhos movimentando-se em diagonal no texto, da esquerda para a direita, e de cima para baixo, ziguezagueando pelas p&aacute;ginas.</p>
+                <p>A leitura seletiva e a leitura em diagonal n&atilde;o precisam de treinamento e t&ecirc;m a vantagem de estabelecer na cabe&ccedil;a do leitor uma rede inteira de ideias e conhecimentos que lhe permitir&atilde;o usar melhor informa&ccedil;&atilde;o quando fizer as leituras ativa e anal&iacute;tica.</p>
+                <p>A <strong>leitura ativa e anal&iacute;tica</strong> permite clarear as ideias importantes de um texto e reconstruir informa&ccedil;&atilde;o a ser apropriada pelo leitor, ativando seus conhecimentos anteriores, evidenciando as no&ccedil;&otilde;es  importantes e dirigindo a leitura para atestar a compreens&atilde;o.</p>
+                <div class="nicones"><img src="../imgs/praticas.png" width="155" height="131" /></div>
+                <p>Para ativar os conhecimentos anteriores, aqueles que acumulamos durante toda nossa vida, que s&atilde;o frutos de nossa experi&ecirc;ncia, e que facilitam a aprendizagem de novos conhecimentos (pois a pessoa sempre faz associa&ccedil;&otilde;es entre o que sabe e o que vai saber), exercite isto: leia a introdu&ccedil;&atilde;o; fa&ccedil;a os exerc&iacute;cios para ver o que voc&ecirc; j&aacute; sabe; tente fazer analogias; comparar com outras situa&ccedil;&otilde;es parecidas; encontre exemplo; escreva suas impress&otilde;es, seus coment&aacute;rios, o que voc&ecirc; achou das passagens mais importantes. Enfim, crie ou descubra seu jeito de ativar seus conhecimentos!</p>
+                <div class="caixaDestaque">
+                <p>Chegamos ao final da nossa primeira aula. Ao longo dessa semana, abordamos as orienta&ccedil;&otilde;es b&aacute;sicas para que voc&ecirc; desenvolva as compet&ecirc;ncias necess&aacute;rias para aprender na modalidade a dist&acirc;ncia.</p>
+                </div>
+              </div>
+<div class="TabbedPanelsContent">
+      <p><br />
+        DESSAINT, Marie-Paule. <strong>Guide d&ecirc;s &eacute;tudes &agrave; distance &agrave; l&acute;&Ugrave;niversite Laval. </strong>Laval: Universit&eacute; Laval, 1998.<br />
+          PALLOFF, Rena M.; PRATT, Keith.<strong> Quem &eacute; o aluno virtual? In: _____. O aluno virtual: um guia para trabalhar com estudantes on-line</strong>. Porto Alegre: ArtMed, 2005. p. 23- 35.<br />
+                PALLOFF, Rena M. ;PRATT, Keith. <strong>O aluno virtual. </strong>Porto Alegre: Artmed, 2004.<br />
+      </p>
+</div>
+		    </div>
+	      </div>
+		  <p>&nbsp;</p>
+  </div>
+</div>
+  <div class="rodape">
+    <div class="rodapedir">Prof. Cassandra Ribeiro O. e Silva</div>
+  </div>
+  
+ <!-- DHTML Windows topico 1 - Diagrama -->
+<div id="windows01-01" style="display:none">
+<div align="center">
+<img src="imagens/diagrama.png" width="445" height="546" alt="UAB/IFCE" />
+</div>
+</div>
+
+<!-- DHTML Windows topico 1 - Esquema Pratt -->
+<div id="windows01-02" style="display:none">
+<div align="center">
+<img src="imagens/grafico-01b.png"  width="400" height="280" alt="(PALLOF; PRAT, 2004)" />
+</div>
+</div>
+  <script type="text/javascript" src="../js/jquery-1.3.2.min.js"></script>
+<script src="../js/mainpage.js" type="text/javascript"></script>
+<script type="text/javascript" src="../js/jquery.tooltip.min.js"></script>
+
+<script type="text/javascript">
+var TabbedPanels1 = new Spry.Widget.TabbedPanels("TabbedPanels1");
+</script>
+</body>
+</html>
